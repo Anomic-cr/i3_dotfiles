@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/anomic/Downloads/0228.jpg" added="2022-03-08T04:01:31.137578Z" modified="2022-03-08T04:01:31.137586Z" visited="2022-03-08T04:01:31.137580Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2022-03-08T04:01:31.137582Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Downloads" added="2022-03-08T04:03:07.775978Z" modified="2022-03-08T04:03:07.776005Z" visited="2022-03-08T04:03:07.775981Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nitrogen" exec="&apos;nitrogen %u&apos;" modified="2022-03-08T04:03:07.775998Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/wallpapers/lockscreen.png" added="2022-03-08T07:57:32.403756Z" modified="2022-03-08T07:57:32.403780Z" visited="2022-03-08T07:57:32.403759Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2022-03-08T07:57:32.403768Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/wallpapers/current_blue.png" added="2022-03-08T07:58:14.076039Z" modified="2022-03-08T12:08:24.299588Z" visited="2022-03-08T07:58:14.076040Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2022-03-08T07:58:14.076042Z" count="1"/>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2022-03-08T12:08:24.299579Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/wallpapers" added="2022-03-08T08:04:42.091276Z" modified="2022-03-08T08:04:42.091289Z" visited="2022-03-08T08:04:42.091278Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nitrogen" exec="&apos;nitrogen %u&apos;" modified="2022-03-08T08:04:42.091282Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/Tue%20Mar%20%208%2003:05:59%20PM%20IST%202022" added="2022-03-08T09:36:17.511651Z" modified="2022-03-08T09:36:20.247794Z" visited="2022-03-08T09:36:17.511654Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;/usr/bin/chromium %U&apos;" modified="2022-03-08T09:36:20.247785Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/Tue%20Mar%20%208%2003:45:23%20PM%20IST%202022.png" added="2022-03-08T10:28:08.225354Z" modified="2022-03-08T10:30:45.849294Z" visited="2022-03-08T10:28:08.225355Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreWolf" exec="&apos;librewolf %u&apos;" modified="2022-03-08T10:30:45.849289Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/Tue%20Mar%20%208%2003:52:53%20PM%20IST%202022.png" added="2022-03-08T10:28:08.225384Z" modified="2022-03-08T14:39:09.872339Z" visited="2022-03-08T10:28:08.225385Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreWolf" exec="&apos;librewolf %u&apos;" modified="2022-03-08T10:30:45.849321Z" count="2"/>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2022-03-08T14:39:09.872332Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/Tue%20Mar%20%208%2003:53:14%20PM%20IST%202022.png" added="2022-03-08T10:28:08.225418Z" modified="2022-03-08T14:38:53.057841Z" visited="2022-03-08T10:28:08.225419Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreWolf" exec="&apos;librewolf %u&apos;" modified="2022-03-08T10:30:45.849349Z" count="2"/>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2022-03-08T14:38:53.057834Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/Tue%20Mar%20%208%2003:45:13%20PM%20IST%202022" added="2022-03-08T10:30:45.849235Z" modified="2022-03-08T10:30:45.849241Z" visited="2022-03-08T10:30:45.849237Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreWolf" exec="&apos;librewolf %u&apos;" modified="2022-03-08T10:30:45.849238Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/Tue%20Mar%20%208%2003:45:16%20PM%20IST%202022" added="2022-03-08T10:30:45.849251Z" modified="2022-03-08T10:30:45.849254Z" visited="2022-03-08T10:30:45.849251Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreWolf" exec="&apos;librewolf %u&apos;" modified="2022-03-08T10:30:45.849252Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Downloads/gaming-9062.theme.css" added="2022-03-08T12:03:37.039570Z" modified="2022-03-08T12:03:37.039591Z" visited="2022-03-08T12:03:37.039574Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreWolf" exec="&apos;librewolf %u&apos;" modified="2022-03-08T12:03:37.039583Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Templates" added="2022-03-08T13:54:54.854681Z" modified="2022-03-08T13:54:54.854693Z" visited="2022-03-08T13:54:54.854682Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-03-08T13:54:54.854688Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/Tue%20Mar%20%208%2005:57:28%20PM%20IST%202022" added="2022-03-08T14:38:22.271352Z" modified="2022-03-08T14:38:22.271362Z" visited="2022-03-08T14:38:22.271352Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2022-03-08T14:38:22.271357Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/Tue%20Mar%20%208%2005:55:36%20PM%20IST%202022" added="2022-03-08T14:39:32.318405Z" modified="2022-03-08T14:39:32.318419Z" visited="2022-03-08T14:39:32.318407Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2022-03-08T14:39:32.318412Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Pictures/Tue%20Mar%20%208%2008:12:35%20PM%20IST%202022" added="2022-03-08T14:42:49.154650Z" modified="2022-03-08T14:42:49.154654Z" visited="2022-03-08T14:42:49.154651Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2022-03-08T14:42:49.154652Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/Downloads/IMG_0358.jpg" added="2022-03-08T15:02:06.953866Z" modified="2022-03-08T15:02:06.953893Z" visited="2022-03-08T15:02:06.953869Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="LibreWolf" exec="&apos;librewolf %u&apos;" modified="2022-03-08T15:02:06.953881Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/anomic/git%20repos/i3_dotfiles" added="2022-03-09T04:12:58.590764Z" modified="2022-03-09T04:12:58.590777Z" visited="2022-03-09T04:12:58.590766Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2022-03-09T04:12:58.590770Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

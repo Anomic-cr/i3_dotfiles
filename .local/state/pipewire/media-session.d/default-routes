@@ -1,0 +1,6 @@
+{
+ "default.route.alsa_card.pci-0000_00_1b.0:profile:off": [ ],
+ "default.route.alsa_card.pci-0000_00_1b.0:profile:output:analog-stereo+input:analog-stereo": [ "analog-input-internal-mic", "analog-output-speaker" ],
+ "default.route.alsa_card.pci-0000_00_1b.0:output:analog-output-speaker": { "mute": false, "volumes": [ 0.090984, 0.090984 ], "channels": [ "FL", "FR" ], "latencyOffsetNsec": 0 },
+ "default.route.alsa_card.pci-0000_00_1b.0:input:analog-input-internal-mic": { "mute": false, "volumes": [ 0.098869, 0.098869 ], "channels": [ "FL", "FR" ], "latencyOffsetNsec": 0 }
+}

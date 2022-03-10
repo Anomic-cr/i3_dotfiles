@@ -1,0 +1,289 @@
+#      ___       __          ___       ______ .______       __  .___________.___________.____    ____ 
+#     /   \     |  |        /   \     /      ||   _  \     |  | |           |           |\   \  /   / 
+#    /  ^  \    |  |       /  ^  \   |  ,----'|  |_)  |    |  | `---|  |----`---|  |----` \   \/   /  
+#   /  /_\  \   |  |      /  /_\  \  |  |     |      /     |  |     |  |        |  |       \_    _/   
+#  /  _____  \  |  `----./  _____  \ |  `----.|  |\  \----.|  |     |  |        |  |         |  |     
+# /__/     \__\ |_______/__/     \__\ \______|| _| `._____||__|     |__|        |__|         |__|     
+#
+# https://github.com/anomic-cr/  
+
+window:
+  padding:
+    x: 0
+    y: 6
+  opacity: 0.7
+
+schemes:
+  tokyo-night: &tokyo-night
+    # Default colors
+    primary:
+      background: '#1a1b26'
+      foreground: '#a9b1d6'
+
+    # Normal colors
+    normal:
+      black:   '#32344a'
+      red:     '#f7768e'
+      green:   '#9ece6a'
+      yellow:  '#e0af68'
+      blue:    '#7aa2f7'
+      magenta: '#ad8ee6'
+      cyan:    '#449dab'
+      white:   '#787c99'
+
+    # Bright colors
+    bright:
+      black:   '#444b6a'
+      red:     '#ff7a93'
+      green:   '#b9f27c'
+      yellow:  '#ff9e64'
+      blue:    '#7da6ff'
+      magenta: '#bb9af7'
+      cyan:    '#0db9d7'
+      white:   '#acb0d0'
+
+  tokyo-night-storm: &tokyo-night-storm
+    # Default colors
+    primary:
+      background: '#24283b'
+      foreground: '#a9b1d6'
+
+    # Normal colors
+    normal:
+      black:   '#32344a'
+      red:     '#f7768e'
+      green:   '#9ece6a'
+      yellow:  '#e0af68'
+      blue:    '#7aa2f7'
+      magenta: '#ad8ee6'
+      cyan:    '#449dab'
+      white:   '#9699a8'
+
+    # Bright colors
+    bright:
+      black:   '#444b6a'
+      red:     '#ff7a93'
+      green:   '#b9f27c'
+      yellow:  '#ff9e64'
+      blue:    '#7da6ff'
+      magenta: '#bb9af7'
+      cyan:    '#0db9d7'
+      white:   '#acb0d0'
+
+  dracula: &dracula
+    primary:
+      background: '#282a36'
+      foreground: '#f8f8f2'
+      bright_foreground: '#ffffff'
+    cursor:
+      text: CellBackground
+      cursor: CellForeground
+    vi_mode_cursor:
+      text: CellBackground
+      cursor: CellForeground
+    search:
+      matches:
+        foreground: '#44475a'
+        background: '#50fa7b'
+      focused_match:
+        foreground: '#44475a'
+        background: '#ffb86c'
+      bar:
+        background: '#282a36'
+        foreground: '#f8f8f2'
+    hints:
+      start:
+        foreground: '#282a36'
+        background: '#f1fa8c'
+      end:
+         foreground: '#f1fa8c'
+         background: '#282a36'
+    line_indicator:
+      foreground: None
+      background: None
+    selection:
+      text: CellForeground
+      background: '#44475a'
+    normal:
+      black: '#21222c'
+      red: '#ff5555'
+      green: '#50fa7b'
+      yellow: '#f1fa8c'
+      blue: '#bd93f9'
+      magenta: '#ff79c6'
+      cyan: '#8be9fd'
+      white: '#f8f8f2'
+    bright:
+      black: '#6272a4'
+      red: '#ff6e6e'
+      green: '#69ff94'
+      yellow: '#ffffa5'
+      blue: '#d6acff'
+      magenta: '#ff92df'
+      cyan: '#a4ffff'
+      white: '#ffffff'
+
+  nord: &nord
+    primary:
+      background: '#2e3440'
+      foreground: '#d8dee9'
+      dim_foreground: '#a5abb6'
+    cursor:
+      text: '#2e3440'
+      cursor: '#d8dee9'
+    vi_mode_cursor:
+      text: '#2e3440'
+      cursor: '#d8dee9'
+    selection:
+      text: CellForeground
+      background: '#4c566a'
+    search:
+      matches:
+        foreground: CellBackground
+        background: '#88c0d0'
+      bar:
+        background: '#434c5e'
+        foreground: '#d8dee9'
+    normal:
+      black: '#3b4252'
+      red: '#bf616a'
+      green: '#a3be8c'
+      yellow: '#ebcb8b'
+      blue: '#81a1c1'
+      magenta: '#b48ead'
+      cyan: '#88c0d0'
+      white: '#e5e9f0'
+    bright:
+      black: '#4c566a'
+      red: '#bf616a'
+      green: '#a3be8c'
+      yellow: '#ebcb8b'
+      blue: '#81a1c1'
+      magenta: '#b48ead'
+      cyan: '#8fbcbb'
+      white: '#eceff4'
+    dim:
+      black: '#373e4d'
+      red: '#94545d'
+      green: '#809575'
+      yellow: '#b29e75'
+      blue: '#68809a'
+      magenta: '#8c738c'
+      cyan: '#6d96a5'
+      white: '#aeb3bb'
+
+  snazzy: &snazzy
+    primary:
+      background: '#100c08'
+      foreground: '#eff0eb'
+    normal:
+      black:   '#282a36'
+      red:     '#ff5c57'
+      green:   '#5af78e'
+      yellow:  '#f3f99d'
+      blue:    '#57c7ff'
+      magenta: '#ff6ac1'
+      cyan:    '#9aedfe'
+      white:   '#f1f1f0'
+    bright:
+      black:   '#686868'
+      red:     '#ff5c57'
+      green:   '#5af78e'
+      yellow:  '#f3f99d'
+      blue:    '#57c7ff'
+      magenta: '#ff6ac1'
+      cyan:    '#9aedfe'
+      white:   '#f1f1f0'
+
+  catppuccin: &catppuccin
+    primary:
+      background: '#1E1D2F'
+      foreground: '#D9E0EE'
+    cursor:
+      text: '#1E1D2F'
+      cursor: '#F5E0DC'
+    normal:
+      black:   '#6E6C7E'
+      red:     '#F28FAD'
+      green:   '#ABE9B3'
+      yellow:  '#FAE3B0'
+      blue:    '#96CDFB'
+      magenta: '#F5C2E7'
+      cyan:    '#89DCEB'
+      white:   '#D9E0EE'
+    bright:
+      black:   '#988BA2'
+      red:     '#F28FAD'
+      green:   '#ABE9B3'
+      yellow:  '#FAE3B0'
+      blue:    '#96CDFB'
+      magenta: '#F5C2E7'
+      cyan:    '#89DCEB'
+      white:   '#D9E0EE'
+    indexed_colors:
+      - { index: 16, color: '#F8BD96' }
+      - { index: 17, color: '#F5E0DC' }
+  reddy: &reddy
+    primary:
+      background: '#100c08'
+      foreground: '#D9E0EE'
+    cursor:
+      text:   '#1E1D2F'
+      cursor: '#FFFFFF'
+    normal:
+      black:   '#6E6C7E'
+      red:     '#ff6666'
+      green:   '#7fff00'
+      yellow:  '#ffef00'
+      blue:    '#73c2fb'
+      magenta: '#F5C2E7'
+      cyan:    '#00ffff'
+      white:   '#ffffff'
+    bright:
+      black:   '#988BA2'
+      red:     '#ff6666'
+      green:   '#7fff00'
+      yellow:  '#ffef00'
+      blue:    '#73c2fb'
+      magenta: '#F5C2E7'
+      cyan:    '#00ffff'
+      white:   '#ffffff'
+
+# Select one of the next themes:
+# - tokyo-night
+# - tokyo-night-storm
+# - dracula
+# - nord
+# - snazzy
+# - catppuccin
+colors: *catppuccin
+
+# Fonts
+font:
+  normal:
+    family: CaskaydiaCove Nerd Font
+    style: Regular
+  bold:
+    family: CaskaydiaCove Nerd Font
+    style: Bold
+  italic:
+    family: CaskaydiaCove Nerd Font
+    style: Italic
+  bold_italic:
+    family: CaskaydiaCove Nerd Font
+    style: Bold Italic
+  size: 8 
+
+cursor:
+  # Values for `style`:
+  #   - ▇ Block
+  #   - _ Underline
+  #   - | Beam
+  style: Block
+
+# Keybindings
+key_bindings:
+        - { key: V,  mods: Control, action: Paste }
+        - { key: C,  mods: Control, action: Copy  }
+        - { key: X,  mods: Control, chars: "\x03" }
+

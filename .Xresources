@@ -1,0 +1,17 @@
+!      __   ___  __   __        __   __   ___  __  
+! \_/ |__) |__  /__` /  \ |  | |__) /  ` |__  /__` 
+! / \ |  \ |___ .__/ \__/ \__/ |  \ \__, |___ .__/ 
+!                                                  
+! https://github.com/anomic-cr
+
+! COLORS FOR SXIV
+Sxiv.foreground: #FFFFFF
+Sxiv.background: #16161d
+Sxiv.font: DaddyTimeMono Nerd Font-12
+
+! Scale external monitors
+Xft.dpi: 96
+
+! Cursor size
+Xcursor.size: 24
+
