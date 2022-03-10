@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![Image](screenshots/1.png)
 ## Table of contents
 * [Installation](#Installation)
