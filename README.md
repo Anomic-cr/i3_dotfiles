@@ -5,7 +5,7 @@
 * [Screenshots](#screenshots)
 * [Key Bindings](#Key_Bindings)
 ## Installation
-currently auto installation is only supported for arch linux and arch based distos.
+currently auto installation is only supported for arch linux and arch based distros.
 
 run
 ```
