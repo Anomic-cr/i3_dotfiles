@@ -40,7 +40,7 @@ helper_install()
 
 def dep_install():
     os.system('yay -S --noconfirm --needed i3-gaps sddm betterlockscreen i3status-git i3blocks-git alacritty rofi-git neofetch-git polybar-git dunst-git feh-git nitrogen picom lxappearance')
-    os.system('yay -S xorg xorg-xinit xorg-server qt5')
+    os.system('yay -S xorg xorg-xinit zsh xorg-server qt5')
 dep_install()
 
 def extra():
