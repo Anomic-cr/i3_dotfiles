@@ -6,8 +6,11 @@
 * [Key Bindings](#Key_Bindings)
 ## Installation
 currently auto installation is only supported for arch linux and arch based distros.
-
-run
+clone the repo
+```
+git clone https://github.com/Anomic-cr/i3_dotfiles.git
+```
+And run the installation script
 ```
 python install.py
 ```
