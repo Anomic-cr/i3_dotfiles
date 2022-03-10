@@ -78,7 +78,7 @@ def set_sddm():
     print('setting sddm theme')
     os.system('git clone https://github.com/keyitdev/sddm-astronaut-theme.git')
     os.system('sudo cp -fdr sddm-astronaut-theme /usr/share/sddm/themes/')
-    os.system('/usr/share/sddm/themes/sddm-astronaut-theme/Fonts/* /usr/share/fonts/')
+    os.system('sudo cp /usr/share/sddm/themes/sddm-astronaut-theme/Fonts/* /usr/share/fonts/')
     os.system('''
     echo "[Theme]
     Current = sddm-astronaut-theme" | sudo tee /etc/sddm.conf
