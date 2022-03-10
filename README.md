@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Image](screenshots/1.png)
 ## Table of contents
 * [Installation](#Installation)
@@ -66,3 +67,5 @@ horizontal split  | Mod + h
 fullscreen  | Mod + f
 Switch to workspace  | Mod + 1-8
 Screenshot  | print screen
+Screenshot active window  | Mod + print screen
+
