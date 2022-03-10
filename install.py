@@ -3,7 +3,7 @@ import os
 import datetime as dt
 import time
 ''' i3wm install scrip
-    Copyright (C) 2022 ssanomic-cr
+    Copyright (C) 2022 anomic-cr
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,8 +19,8 @@ import time
     with this program; if not, write to the Free Software Foundation, Inc.,
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 '''
-now =dt.datetime.now()
-print(f'welcome \n{now}')
+now =str(dt.datetime.now())
+cowsay.daemon('welcome' + now)
 
 def update():
     print('updating system')
