@@ -20,7 +20,7 @@ import time
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 '''
 now =str(dt.datetime.now())
-cowsay.daemon('welcome' + now)
+print('welcome' + now)
 
 def update():
     print('updating system')
