@@ -36,12 +36,12 @@ def helper_install():
         os.system('cd yay && makepkg -si')
         os.system('cd .. && rm -rf yay')
 
-helper_install()
+
 
 def dep_install():
     os.system('yay -S --noconfirm --needed i3-gaps sddm betterlockscreen i3status-git i3blocks-git alacritty rofi-git neofetch-git polybar-git dunst-git feh-git nitrogen picom lxappearance')
     os.system('yay -S xorg xorg-xinit zsh xorg-server qt5')
-dep_install()
+
 
 def extra():
     ins = int(input('do you want to install some more extra packages?\n1.Yes\n2.No\n(respond with 1 or 2):'))
@@ -52,7 +52,7 @@ def extra():
     else:
         print("ok ;-;")
 
-extra()
+
 
 def tip():
     print("I assume you have pulseaudio installed, it often creates problem on my system so I'd recommend instlling pipewire instead")
@@ -60,7 +60,7 @@ def tip():
     if pipe == 1:
         os.system('yay -S --noconfirm --needed pipewire pipewire-alsa pipewire-bluetooth')
         os.system('sudo pacman -Rns pulseaudio pulseaudio-alsa')
-tip()
+
 
 def copy_config():
     print('copying config files')
@@ -72,7 +72,7 @@ def copy_config():
     os.system('cp .local ~/.local')
     os.system('cp -r .icons ~/.icons')
     os.system('cp -r gtkrc-2.0 ~/.gtkrc-2.0')
-copy_config()  
+
  
 def set_sddm():
     print('setting sddm theme')
@@ -83,7 +83,7 @@ def set_sddm():
     echo "[Theme]
     Current = sddm-astronaut-theme" | sudo tee /etc/sddm.conf
     "''')
-set_sddm()
+
 
 def try_en():
     print('trying to enable sddm service, if you already have a dispaly manager installed, you can skip this and disbale your current DM and then enable sddm')
@@ -101,8 +101,17 @@ def reboot():
         time.sleep(secs=1)
         nt-=1
         ing+=1
-reboot()
 
-try_en()
 
 print('done installing')
+
+if __name__ == '__main__':
+    update()
+    helper_install()
+    dep_install()
+    extra()
+    tip()
+    copy_config()
+    set_sddm()
+    try_en()
+    reboot()
