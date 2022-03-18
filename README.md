@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![Image](screenshots/1.png)
 ## Table of contents
 * [Installation](#Installation)
@@ -6,14 +5,18 @@
 * [Screenshots](#screenshots)
 * [Key Bindings](#Key_Bindings)
 ## Installation
-currently auto installation is only supported for arch linux and arch based distos.
-
-run
+currently auto installation is only supported for arch linux and arch based distros.
+clone the repo
+```
+git clone https://github.com/Anomic-cr/i3_dotfiles.git
+```
+And run the installation script
 ```
 python install.py
 ```
 and you should be good to go
 ## Manual Installation
+Install the dependencies and copy the config files
 ### Dependencies
 ```
 i3-gaps, sddm, betterlockscreen, i3status-git, i3blocks-git, alacritty, rofi-git, neofetch-git, polybar-git, dunst-git, feh-git, nitrogen, picom, lxappearance, xorg, xorg-xinit, xorg-server, qt5, oh-my-zsh, zsh
@@ -22,7 +25,7 @@ i3-gaps, sddm, betterlockscreen, i3status-git, i3blocks-git, alacritty, rofi-git
 ```
  neovim,vs code, python-pynvim, zsh zsh-completions,zsh-syntax-highlighting, zsh-autosuggestions, zsh-history-substring-search, zsh-history-substring-search-git, xclip maim, neofetch uwufetch, awesome-fonts-git, htop, nerd-fonts-complete-git, noto-fonts-emoji-git, noto-fonts-cjk-git, noto-fonts-extra-git, noto-fonts-extra-cjk-git, noto-fonts-mono-git, noto-fonts-symbols-git,
 ```
-and now run copy the config files to your home directory
+and now run the following cammands to copy the config files to your home directory
 ```
 cp -r config ~/.config/
 cp .bashrc ~/.bashrc
